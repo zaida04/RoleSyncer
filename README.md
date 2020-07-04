@@ -3,7 +3,7 @@
 [![made-with-Discord.js](https://img.shields.io/badge/Made%20with-Discord.js-1f425f.svg?style=for-the-badge)](https://github.com/discordjs/discord.js/)
 ![Discord.js-Version-Discord.js](https://img.shields.io/badge/Discord.js-12.2.0-1f425f.svg?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/zaida04/Discord-Role-Syncer.svg?style=for-the-badge) ![GitHub issues](https://img.shields.io/github/issues/zaida04/Discord-Role-Syncer.svg?style=for-the-badge)
 
-A discord bot that syncs up roles between a main and numerous children servers.
+#### A discord bot that syncs up roles between a main and numerous children servers.
 
 # Features
 
