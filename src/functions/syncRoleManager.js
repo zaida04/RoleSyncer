@@ -56,9 +56,11 @@ class syncRoleManager {
 		this.db.prepare(`INSERT INTO ${table_name}(user_id, have_role) VALUES (?, ?)`).run(id, initial_value ? 1 : 0);
 	}
 
-	async has_role({id}) {
+	async has_role({
+		id
+	}) {
 		let retrieve = this.db.prepare(`SELECT * FROM ${table_name} WHERE user_id=?`).get(id);
-		if(!retrieve) return false;
+		if (!retrieve) return false;
 		return retrieve.have_role;
 	}
 }
